@@ -11,6 +11,10 @@ call vundle#end()
 filetype plugin indent on
 
 syntax on
+
+"remove option of auto indent comment
+au FileType * set formatoptions-=r formatoptions-=c formatoptions-=o
+
 set showmode
 set showcmd
 set mouse=a
