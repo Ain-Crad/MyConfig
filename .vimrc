@@ -6,6 +6,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 
 call vundle#end()
 filetype plugin indent on
@@ -41,3 +43,9 @@ set ignorecase
 
 set noerrorbells
 set visualbell
+
+colorscheme default
+
+"theme
+"colorscheme onehalfdark
+"let g:arline_theme='onehalfdark'
