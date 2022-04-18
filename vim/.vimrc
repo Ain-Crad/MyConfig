@@ -8,6 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'sonph/onehalf', {'rtp': 'vim/'}
+Plugin 'frazrepo/vim-rainbow'
 
 call vundle#end()
 filetype plugin indent on
@@ -24,10 +25,10 @@ set encoding=utf-8
 set t_Co=256
 
 set autoindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
-set softtabstop=2
+set softtabstop=4
 
 set number
 set cursorline
@@ -49,3 +50,6 @@ colorscheme default
 "theme
 "colorscheme onehalfdark
 "let g:arline_theme='onehalfdark'
+
+"rainbow parentheses
+let g:rainbow_active=1
