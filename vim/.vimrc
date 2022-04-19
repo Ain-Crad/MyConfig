@@ -9,6 +9,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 Plugin 'frazrepo/vim-rainbow'
+Plugin 'preservim/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
@@ -53,3 +54,9 @@ colorscheme default
 
 "rainbow parentheses
 let g:rainbow_active=1
+
+"remap keys
+nnoremap <C-h> gT
+nnoremap <C-l> gt
+nnoremap <C-x> :tabc<CR>
+nnoremap <F4> :NERDTree<CR>
