@@ -60,3 +60,5 @@ nnoremap <C-h> gT
 nnoremap <C-l> gt
 nnoremap <C-x> :tabc<CR>
 nnoremap <F4> :NERDTree<CR>
+nnoremap <C-j> :call feedkeys( line('.') == 1 ? '' : 'ddkP')<CR>
+nnoremap <C-k> ddp
